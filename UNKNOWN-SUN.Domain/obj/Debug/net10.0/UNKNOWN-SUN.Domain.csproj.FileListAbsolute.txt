@@ -1,0 +1,11 @@
+C:\Users\Adam\OneDrive - The Ohio State University\College\OSU\Extra Semester\Bus Sys App Dev\Labs\repos\Unknown-Sun-api\UNKNOWN-SUN.Domain\bin\Debug\net10.0\UNKNOWN-SUN.Domain.deps.json
+C:\Users\Adam\OneDrive - The Ohio State University\College\OSU\Extra Semester\Bus Sys App Dev\Labs\repos\Unknown-Sun-api\UNKNOWN-SUN.Domain\bin\Debug\net10.0\UNKNOWN-SUN.Domain.dll
+C:\Users\Adam\OneDrive - The Ohio State University\College\OSU\Extra Semester\Bus Sys App Dev\Labs\repos\Unknown-Sun-api\UNKNOWN-SUN.Domain\bin\Debug\net10.0\UNKNOWN-SUN.Domain.pdb
+C:\Users\Adam\OneDrive - The Ohio State University\College\OSU\Extra Semester\Bus Sys App Dev\Labs\repos\Unknown-Sun-api\UNKNOWN-SUN.Domain\obj\Debug\net10.0\UNKNOWN-SUN.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adam\OneDrive - The Ohio State University\College\OSU\Extra Semester\Bus Sys App Dev\Labs\repos\Unknown-Sun-api\UNKNOWN-SUN.Domain\obj\Debug\net10.0\UNKNOWN-SUN.Domain.AssemblyInfoInputs.cache
+C:\Users\Adam\OneDrive - The Ohio State University\College\OSU\Extra Semester\Bus Sys App Dev\Labs\repos\Unknown-Sun-api\UNKNOWN-SUN.Domain\obj\Debug\net10.0\UNKNOWN-SUN.Domain.AssemblyInfo.cs
+C:\Users\Adam\OneDrive - The Ohio State University\College\OSU\Extra Semester\Bus Sys App Dev\Labs\repos\Unknown-Sun-api\UNKNOWN-SUN.Domain\obj\Debug\net10.0\UNKNOWN-SUN.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Adam\OneDrive - The Ohio State University\College\OSU\Extra Semester\Bus Sys App Dev\Labs\repos\Unknown-Sun-api\UNKNOWN-SUN.Domain\obj\Debug\net10.0\UNKNOWN-SUN.Domain.dll
+C:\Users\Adam\OneDrive - The Ohio State University\College\OSU\Extra Semester\Bus Sys App Dev\Labs\repos\Unknown-Sun-api\UNKNOWN-SUN.Domain\obj\Debug\net10.0\refint\UNKNOWN-SUN.Domain.dll
+C:\Users\Adam\OneDrive - The Ohio State University\College\OSU\Extra Semester\Bus Sys App Dev\Labs\repos\Unknown-Sun-api\UNKNOWN-SUN.Domain\obj\Debug\net10.0\UNKNOWN-SUN.Domain.pdb
+C:\Users\Adam\OneDrive - The Ohio State University\College\OSU\Extra Semester\Bus Sys App Dev\Labs\repos\Unknown-Sun-api\UNKNOWN-SUN.Domain\obj\Debug\net10.0\ref\UNKNOWN-SUN.Domain.dll
