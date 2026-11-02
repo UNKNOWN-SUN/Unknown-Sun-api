@@ -1,6 +1,32 @@
 @UNKNOWN_SUN_Api_HostAddress = http://localhost:5016
 
-GET {{UNKNOWN_SUN_Api_HostAddress}}/weatherforecast/
+GET {{UNKNOWN_SUN_Api_HostAddress}}/Catalog
 Accept: application/json
 
 ###
+
+GET {{UNKNOWN_SUN_Api_HostAddress}}/Catalog/42
+Accept: application/json
+
+###
+
+POST {{UNKNOWN_SUN_Api_HostAddress}}/Catalog
+Content-Type: application/json
+
+{
+  "name": "Cap",
+  "description": "Ohio State cap.",
+  "brand": "Nike",
+  "price": 24.99
+}
+
+###
+
+POST {{UNKNOWN_SUN_Api_HostAddress}}/Catalog/42/ratings
+Content-Type: application/json
+
+{
+  "stars": 5,
+  "userName": "Test user",
+  "review": "Great item."
+}
