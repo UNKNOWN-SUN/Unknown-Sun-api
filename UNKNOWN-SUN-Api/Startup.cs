@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
+using UNKOWNSUN.Data;
 
 namespace UNKNOWN_SUN_Api
 {
@@ -20,6 +22,11 @@ namespace UNKNOWN_SUN_Api
             services.AddControllers();
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
+
+            services.AddDbContext<StoreContext>(options =>
+                options.UseSqlite(
+                    "Data Source=../Registrar.sqlite",
+                    b => b.MigrationsAssembly("UNKNOWN-SUN-Api")));
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
