@@ -87,16 +87,72 @@ namespace UNKNOWN_SUN_Api.Migrations
                     b.ToTable("Rating");
                 });
 
+            modelBuilder.Entity("Unknown_Sun_Domain.Orders.Order", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Orders");
+                });
+
+            modelBuilder.Entity("Unknown_Sun_Domain.Orders.OrderItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("ItemId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int?>("OrderId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ItemId");
+
+                    b.HasIndex("OrderId");
+
+                    b.ToTable("OrderItem");
+                });
+
             modelBuilder.Entity("Unknown_Sun_Domain.Catalog.Rating", b =>
                 {
                     b.HasOne("Unknown_Sun_Domain.Catalog.Item", null)
                         .WithMany("Ratings")
-                        .HasForeignKey("ItemId");
+                        .HasForeignKey("ItemId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("Unknown_Sun_Domain.Orders.OrderItem", b =>
+                {
+                    b.HasOne("Unknown_Sun_Domain.Catalog.Item", "Item")
+                        .WithMany()
+                        .HasForeignKey("ItemId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Unknown_Sun_Domain.Orders.Order", null)
+                        .WithMany("OrderItems")
+                        .HasForeignKey("OrderId");
+
+                    b.Navigation("Item");
                 });
 
             modelBuilder.Entity("Unknown_Sun_Domain.Catalog.Item", b =>
                 {
                     b.Navigation("Ratings");
+                });
+
+            modelBuilder.Entity("Unknown_Sun_Domain.Orders.Order", b =>
+                {
+                    b.Navigation("OrderItems");
                 });
 #pragma warning restore 612, 618
         }

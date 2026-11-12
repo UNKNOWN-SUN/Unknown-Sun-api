@@ -1,4 +1,8 @@
 <Solution>
+  <Folder Name="/tests/">
+    <Project Path="tests/Unknown-Sun.Domain.Tests/Unknown-Sun.Domain.Tests.csproj" />
+  </Folder>
   <Project Path="UNKNOWN-SUN-Api/UNKNOWN-SUN-Api.csproj" />
   <Project Path="UNKNOWN-SUN-Domain/UNKNOWN-SUN-Domain.csproj" />
+  <Project Path="UNKNOWNSUN.Data/UNKNOWNSUN.Data.csproj" />
 </Solution>
