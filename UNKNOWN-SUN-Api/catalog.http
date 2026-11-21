@@ -1,0 +1,16 @@
+### Get a token from Auth0
+# @name getToken
+POST https://dev-gwcayy045le17lxo.us.auth0.com/oauth/token
+Content-Type: application/json
+
+{
+  "client_id": "<YOUR_CLIENT_ID>",
+  "client_secret": "<YOUR_CLIENT_SECRET>",
+  "audience": "https://unknown-sun.com",
+  "grant_type": "client_credentials",
+  "scope": "delete:catalog"
+}
+
+### DELETE a catalog item
+DELETE http://localhost:5016/catalog/3
+Authorization: Bearer <PASTE_ACCESS_TOKEN_HERE>
